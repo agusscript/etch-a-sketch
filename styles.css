@@ -1,13 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  background-color: rgb(168, 128, 76);
 }
 
-.container {
-  display: flex;
+#grid-container {
+  margin: 2rem auto;
+  border: 12px solid black;
+  border-radius: 0.3rem;
 }
 
 .div-item {
+  background-color: white;
   border: 0.1px solid rgba(190, 190, 190, 0.164);
 }
 
@@ -24,5 +29,20 @@ body {
   border-bottom-left-radius: 0;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
 }
 
