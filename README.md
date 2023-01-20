@@ -1,4 +1,4 @@
-# Rock Paper Scissors game
+#  Etch-A-Sketch
 
 This is a solution to the  [Etch-A-Sketch](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) project challenge.
 
