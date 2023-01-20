@@ -62,7 +62,7 @@ raibowColorDivButton.addEventListener("click", randomColor);
 
 function showGrid() {
   createGridContainer();
-  createGrid(64);
+  createGrid(42);
   changeDivColor("black");
 }
 
